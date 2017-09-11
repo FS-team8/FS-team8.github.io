@@ -6,6 +6,10 @@ function showDiv(id) {
   $(id).show();
 }
 
+function onFSPopupClosed() {
+  windlow.location=""
+}
+
  $(document).ready(function(){
    $("#map").bind("mousemove",function(e){
     var offset = $("#map").offset();
