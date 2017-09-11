@@ -1,0 +1,50 @@
+body {
+    font-family: "FS Emeric Book", Verdana, sans-serif;
+}
+
+.tooltip {
+  display:none;
+  border-radius: 10px;
+  background-color:white; 
+}
+
+.content {
+  padding: 2px;
+  width:150px; 
+  height:150px; 
+  border-radius: 10px;
+  z-index:1;
+}
+
+.content h1 {
+  font-size: 12;
+}
+
+#map {
+  width: 1420px;
+}
+
+#product-zoo {
+    position:absolute;
+    top:240px;
+    left:1200px;
+    z-index:10002;
+}
+#product-east {
+    position:absolute;
+    top:480px;
+    left:1000px;
+    z-index:10002;
+}
+#product-funk {
+    position:absolute;
+    top:420px;
+    left:780px;
+    z-index:10002;
+}
+#product-state {
+    position:absolute;
+    top:300px;
+    left:375px;
+    z-index:10002;
+}
