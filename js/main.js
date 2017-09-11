@@ -16,7 +16,7 @@ function showDiv(id) {
       	showDiv('#product-zoo');
       } else if ((clickX>800)&&(clickY>420)){
         showDiv('#product-east');
-      } else if ((clickX>600)&&(clickX<900)&&(clickY>420)&&(clickY<580)) {
+      } else if ((clickX>400)&&(clickX<900)&&(clickY>420)&&(clickY<580)) {
       	showDiv('#product-funk');
       } else if ((clickX>250)&&(clickX<600)&&(clickY>160)&&(clickY<400)) {
       	showDiv('#product-state');

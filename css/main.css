@@ -9,9 +9,10 @@ body {
 }
 
 .content {
+  margin: 5px;
   padding: 2px;
   width:150px; 
-  height:150px; 
+  height:220px; 
   border-radius: 10px;
   z-index:1;
 }
